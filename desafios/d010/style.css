@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "android";
+    src:url(fontes/idroid.otf) format("opentype");
+    font-weight: 2em;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    font: normal normal 1em "lucida sans";
+    background-color: rgba(121, 223, 189, 0.795);
+}
+h1 {
+    font: normal bold 2em "android";
+    color: rgb(38, 148, 62);
+    text-shadow: 1.1px 2.1px 4.2px black;
+    }
+h2 {
+    font:normal normal 1.5em "android";
+    color: rgb(38, 148, 62);
+    background-image: linear-gradient(45deg,#6cb49171, #e7d8c4);
+    margin: 1px 500px 1px 1px;
+    text-shadow: 1.1px 2.1px 4.2px rgba(0, 0, 0, 0.404);
+}    
+p {
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 1.5em;
+}
+header {
+    background-image: linear-gradient(180deg, #6cb491, #407f5f, #0d4d28,#003317);
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 3px 10px 2px #003317a4;
+}
+header > h1 {
+    text-align: center;
+    font: normal bold 2em "Lucida sans";
+    color: antiquewhite;
+    text-shadow: 1.1px 2.1px 4.2px black;
+}
+header > p {
+    text-align: center;
+    font: normal normal 1em "Lucida sans";
+    color: antiquewhite;
+    text-shadow: 1.1px 2.1px 4.2px black;
+}
+nav {
+    font: normal bolder 1em "Lucida sans";
+    text-shadow: 1.1px 2.1px 4.2px black;
+    padding: 1px;
+}
+nav > a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px;   
+}
+main {
+    background-color: #e7d8c4;
+    border: 0.5px solid rgba(6, 18, 19, 0.37);
+    border-radius: 0px 0px 10px 10px;
+    padding: 1px 20px 1px 20px;
+    margin:0px 200px 15px 200px;
+    box-shadow: 1px 3px 10px 2px #00050293;
+}
+img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+picture #bug {
+    margin: auto;
+    padding:10px ;
+    width: 50%;
+}
+div {
+    display: flex;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 25px 49px 25px 49px;
+    border: 0px 0px 0px 0px;
+    background-color: #003317;
+}
+section >ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 1em;
+    height: calc(1.4em * 7);
+}
+section >h3{
+    margin: 20px 0px 0px 0px;
+    padding: 10px 2px 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #42ad70;
+    font: normal bold 1em "Lucida sans";
+    color: antiquewhite;
+    text-shadow: 1.1px 2.1px 4.2px black;   
+}
+section {
+    margin: 20px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(121, 223, 189, 0.795);
+}
+footer {
+    margin: auto;
+    padding: 7px 0px 7px 0px;
+    background-color: #003317;
+    text-align: center;
+    color: antiquewhite;
+}
+.links {    
+    text-decoration: none;
+    font-weight: bold;
+    color: #003317de;
+}
+a :visited {
+    text-decoration: none;
+}
+

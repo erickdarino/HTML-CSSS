@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root {
+    --font1: verdana, arial, sans-serif;
+    --font2: 'Fredericka the Great', cursive;
+
+    --cor0:#c5ebe5; 
+    --cor1:#83dee1;
+    --cor2:#3d9cdc;
+    --cor3:#2f41a8;
+    --cor4:#1a1b5c;
+    --cor5:#16063d;
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+body {
+    background-image: url(../praticando/imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor3),var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top:40px;
+}
+header > h1 {
+    color:white;
+    font-family: var(--font2);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
+}
+header > p {
+    font-family: var(--font2);
+    font-size: 1.2em;
+    color:white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin:auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.603);
+}
+nav {
+    background-color: var(--cor5);
+    padding:10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.623);
+    
+}
+nav > a {
+    color: #3d9cdc;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0,5s;
+}
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+main {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1400px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 10px black;
+}
+main > h2 {
+    font-family: var(--font2);
+    color: var(--cor4);
+    font-size: 1.7em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main > p {
+    font-family: var(--font1);
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 50px;
+}
+article#img1 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.534);
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 8% 4% 8% 4%;
+    padding: 0px;
+    line-height: 1.8em;
+    text-shadow:2px 1px 1px black;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+}
+article#img2 > p {
+    font-family: fantasy;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.281);
+    background-size: auto;
+    margin:1px 0px 1px 0px;
+    padding: 3px 20px 3px 20px;
+    color: beige;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    text-shadow:2px 1px 1px black;
+}
+Article#img2 > h3 {
+    font-family: var(--font2);
+    background-image: linear-gradient(to right,transparent, rgb(54, 54, 54),black,rgb(54, 54, 54), transparent);
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow:2px 1px 1px black;   
+}
+article#img2 > ul {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.26);
+    list-style-position: inside;
+    list-style-type: disc;
+    columns: 2;
+    background-size: cover;
+    color: beige;
+    text-align: justify;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height: 2vw;
+    text-shadow:2px 1px 1px black;
+    margin: 3% 25% 3% 25%;
+    padding:10px 0px 10px 0px;   
+}
+article.imagens {
+    max-width:1400px;
+    min-width: 300px;
+    margin:0px -20px 0px -20px;
+    background-color: burlywood;
+    height: 70vh;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+article#img1 {
+    background-image: url('imagens/dime.jpg');
+    background-position:top center;
+    background-repeat: no-repeat;
+}
+
+article#img2 {
+    background-image: url('imagens/bat.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+div {
+    background-color: #3d9cdc;
+    background-size: cover;
+    height: 80vh;
+    margin: 0px 0px 0px -20px;
+    padding: 0px;
+}
+iframe {
+    background-size: cover;
+    width:100% ;
+    height: 80vh;
+}
+footer {
+    color:antiquewhite;
+    text-shadow: 2px 2px 10px black;
+    font-family: var(--font2);
+    font-size: 1.5em;
+    width: fit-content;
+    margin: 0% 28% 0% 40%;
+    text-align: center;
+}
